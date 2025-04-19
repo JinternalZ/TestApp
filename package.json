@@ -1,0 +1,27 @@
+{
+  "name": "music-marketplace",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "HOST=0.0.0.0 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.13.0",
+    "@nuxtjs/supabase": "^1.1.6",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "@pinia/nuxt": "^0.5.1",
+    "pinia": "^2.1.7",
+    "vue3-audio-player": "^1.0.7",
+    "vue3-toastify": "^0.2.1",
+    "nuxt-icon": "^0.6.10",
+    "wavesurfer.js": "^7.7.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/color-mode": "^3.3.2",
+    "@vueuse/nuxt": "^10.9.0"
+  }
+}
